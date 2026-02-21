@@ -110,3 +110,10 @@ Also note that what you can search in Advanced Hunting can be different than wha
 
 ## Investigate Microsoft Entra sign-in logs
 - The SigninLogs table in the Log Analytics within Sentinel, provides access to the same information you can find in the Azure Portal by going to Microsoft Entra ID --> Monitoring --> Sign-in-logs
+
+## Configure the Microsoft Defender portal
+The primary setting for Defender XDR is the notifications email configuration. There are two types:
+|Notification Type| Description
+|---|---|
+| Incidents | When new Incidents are created|
+| Threat Analytics | When new Threat Analytic reports are created|
